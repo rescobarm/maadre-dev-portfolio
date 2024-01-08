@@ -69,7 +69,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-Whh+s7l0h9A6iqwwP\/rIiXZUzcfgMvEJJT5xpf7X7o4=",
+      "hash": "sha256-U5whKliO8Lp+daokoKKvA1xbNTXdEgCcx39GtipoYbw=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -137,7 +137,7 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
-      "hash": "sha256-7DEBpiGy8Ge4eKOmw6crh4affcKefBEKAVwqeTiUZWI=",
+      "hash": "sha256-v5tCs4BuHvWBKtPj9TY7n\/TvchTLVtA+anCsmWhBfeY=",
       "url": "_framework\/portfolio.maadre.dev.wasm"
     },
     {
@@ -333,5 +333,5 @@
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Microsoft.FluentUI.AspNetCore.Components.lib.module.js"
     }
   ],
-  "version": "jbq0dQMR"
+  "version": "YNg57gFz"
 };
