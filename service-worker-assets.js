@@ -21,7 +21,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-pIl3O3CoVcyAK9Bq832uE0LtiXWB8VBOdXGQd+QYCEg=",
+      "hash": "sha256-TgUm1FokGmt3xgyoIgu\/UAg5SdrlLPoxy0Q+80vPPXc=",
       "url": "index.html"
     },
     {
@@ -69,7 +69,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-oFWEgO0ZdxYp0BhxJWGLMXSmKbp4jgZdHMN4rpYue\/s=",
+      "hash": "sha256-ynz9TTb5pSOEW9akvGjwaJv55A6bS5Mqoq\/QZSQ7IRU=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -137,7 +137,7 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
-      "hash": "sha256-Mp41xuNupGzsYcKx+BY2o04kX32+gHhBVWyctMv3amY=",
+      "hash": "sha256-H5qToO1ROAI0sDIAmHV6PNXE8O73KXZTR4Ef1Mvn9WM=",
       "url": "_framework\/portfolio.maadre.dev.wasm"
     },
     {
@@ -333,5 +333,5 @@
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Microsoft.FluentUI.AspNetCore.Components.lib.module.js"
     }
   ],
-  "version": "cJYZkPCb"
+  "version": "JlUyE6Ur"
 };
