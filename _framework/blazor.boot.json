@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "portfolio.maadre.dev",
   "resources": {
-    "hash": "sha256-yWKcKlENoS4Wp7iEmoXwOiSbi83JvKf/5Hf69N9n+60=",
+    "hash": "sha256-grEskaJG6kdyu/2aXda7EZciFlZ9WsXY7M/Qf6oR5BU=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.45ykigla5r.js": "sha256-LjLDIz9+J7uuiwMlQ4HbNx2BnSpphOtO2MwkoI28vdI="
     },
@@ -30,10 +30,10 @@
       "Microsoft.Extensions.Options.wasm": "sha256-6DN1malfyp0G0uOYwQY0nIN60XdXpVXUXXw0X2c8V8E=",
       "Microsoft.Extensions.Primitives.wasm": "sha256-Ms2HR5Gpug/0uRAzdk4SUNT76Ml3CjFv9Jo+dUIMGac=",
       "Microsoft.FluentUI.AspNetCore.Components.Icons.wasm": "sha256-frSg1a2kbqIbTP/i0wPoLvgfUMmxeeYPgaC/HdVdB9M=",
-      "Microsoft.FluentUI.AspNetCore.Components.wasm": "sha256-aJ91+VCFpTfhE+8JHWrtNlebHDuDZQbShbTZGdEkS9c=",
+      "Microsoft.FluentUI.AspNetCore.Components.wasm": "sha256-rzGGKiS15Vi8Y3P4bIeIp8QzlRPsaOl8CX5boKnFuBY=",
       "Microsoft.JSInterop.wasm": "sha256-WqwrLSq6I0WS4A2UuGpdgKlCIe9JGClT25fntjYDaCM=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-CQVLCKiSxLN5ghyJZG3mhnMGRROdqrbNUjtAXB0nWb8=",
-      "portfolio.maadre.dev.wasm": "sha256-ortM1DIQGxvUO3iu6FlFCL3P9+ZAatPqRCgnh/ymY+E=",
+      "portfolio.maadre.dev.wasm": "sha256-zVS33XIcQCNQ+TX8EBibFFH0KMDjOJApyE1HQcMFk3U=",
       "System.Collections.Concurrent.wasm": "sha256-5GaDIF/OEI7WOejCEJ5loDqINrvyn9zK3+GGEsnjBnw=",
       "System.Collections.wasm": "sha256-yY2Qhp5A3aEcktdZjjoE760FD4ihY+8z2c4qmwkSaU4=",
       "System.ComponentModel.Annotations.wasm": "sha256-LRHxWGbb8etGvOmGmr6NYYxYckhetCNEf4hR/u9msaA=",

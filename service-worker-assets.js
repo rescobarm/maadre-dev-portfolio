@@ -69,7 +69,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-Hr8\/ag4ILjAFzdn8g6yCiu4ucJiSFQXP6FhOY43AkGc=",
+      "hash": "sha256-VlXqXLuoic8fMNSAX0hU1JalohucE2uHZAf4XfoYIbA=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -125,7 +125,7 @@
       "url": "_framework\/Microsoft.FluentUI.AspNetCore.Components.Icons.wasm"
     },
     {
-      "hash": "sha256-aJ91+VCFpTfhE+8JHWrtNlebHDuDZQbShbTZGdEkS9c=",
+      "hash": "sha256-rzGGKiS15Vi8Y3P4bIeIp8QzlRPsaOl8CX5boKnFuBY=",
       "url": "_framework\/Microsoft.FluentUI.AspNetCore.Components.wasm"
     },
     {
@@ -137,7 +137,7 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
-      "hash": "sha256-ortM1DIQGxvUO3iu6FlFCL3P9+ZAatPqRCgnh\/ymY+E=",
+      "hash": "sha256-zVS33XIcQCNQ+TX8EBibFFH0KMDjOJApyE1HQcMFk3U=",
       "url": "_framework\/portfolio.maadre.dev.wasm"
     },
     {
@@ -341,5 +341,5 @@
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Microsoft.FluentUI.AspNetCore.Components.lib.module.js"
     }
   ],
-  "version": "25bxkAHW"
+  "version": "9DwUf4\/q"
 };
