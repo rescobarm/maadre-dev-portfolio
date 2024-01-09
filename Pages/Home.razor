@@ -1,10 +1,11 @@
 ﻿@page "/"
+@inject IDialogService DialogService;
 
 <PageTitle>Inicio - [Rudyard]</PageTitle>
 
 <FluentCard>
     <FluentHeader>
-        <h1>¡Bienvenido a mi Portafolio Digital!</h1>
+        <h3>¡Portafolio Digital!</h3>
     </FluentHeader>
     <FluentBodyContent>           
         <p>
@@ -45,8 +46,41 @@
         </section>
 
         <section>
-            <h2>Contacto</h2>            
+            <h2>Contacto</h2>
             <!-- Agregar aquí formulario de contacto o detalles de contacto -->
+            <FluentButton Appearance="Appearance.Accent"
+                Loading="@Loading"
+                IconStart="@(new Icons.Regular.Size20.MailInboxAdd())"
+                Disabled="@(!AcceptToCreate)"
+                          Type="ButtonType.Submit" OnClick="OnContact"></FluentButton>
         </section>
     </FluentBodyContent>
 </FluentCard>
+
+@code {
+    private bool AcceptToCreate { get; set; } = true;
+    private bool Loading { get; set; } = false;
+    private async Task OnContact()
+    {
+        Loading = true;
+        //await Task.Delay(1000);
+        var parameters = new DialogParameters();
+        // parameters.Add("Title", "Contacto");
+        // parameters.Add("Message", "¿Deseas contactarme?");
+
+        var dialog = await DialogService.ShowInfoAsync(message: "rudyard.matuz@gmail.com", title: "Contacto");
+        //.Show<Dialog>("Contacto", parameters);
+        var result = await dialog.Result;
+
+        if (!result.Cancelled)
+        {
+            var value = result.Data as string;
+            if (value == "Yes")
+            {
+                //await DialogService.ShowInfoAsync(message: "¡Gracias por contactarme!", "Contacto");
+                //("¡Gracias por contactarme!", "Contacto");
+            }
+        }
+        Loading = false;
+    }
+}
