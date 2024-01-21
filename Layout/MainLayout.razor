@@ -1,10 +1,16 @@
 ﻿@inherits LayoutComponentBase
+@inject IDialogService DialogService;
+
+<FluentDesignTheme StorageName="theme"></FluentDesignTheme>
+
 <FluentLayout>
     <FluentHeader>
         Rudyard Escobar Matuz
+        <FluentIcon Value="@(new Icons.Regular.Size20.Settings())"
+                    Color="Color.Lightweight" Class="icon-align-left"
+            OnClick="@ShowSettingAsync"></FluentIcon>
     </FluentHeader>
-    <FluentStack Class="main" Orientation="Orientation.Horizontal" Width="100%">
-        <NavMenu />
+    <FluentStack Class="main" Orientation="Orientation.Horizontal" Width="100%">        
         <FluentBodyContent>
             <ErrorBoundary>
                 <ChildContent>
@@ -17,6 +23,7 @@
                 </ErrorContent>
             </ErrorBoundary>
         </FluentBodyContent>
+        <NavMenu />
     </FluentStack>
     <FluentFooter>
         <div class="link1">
@@ -31,4 +38,24 @@
     </FluentFooter>
 </FluentLayout>
 
-<FluentDialogProvider></FluentDialogProvider>
+<FluentDialogProvider/>
+
+@code{
+
+    private async Task ShowSettingAsync()
+    {
+        try
+        {
+            await DialogService.ShowPanelAsync<Pages.Settings>(new DialogParameters
+                {
+                    Title = "Temas",
+                    Alignment = HorizontalAlignment.Right,
+                    SecondaryAction = null
+                });
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
+}
